@@ -1,0 +1,197 @@
+/* design of body */
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff
+}
+
+/*end design of body*/
+
+/*design of login form */
+
+
+.login_form{
+    width: 400px;
+    margin: 120px auto;
+}
+.login_form input {
+    margin-bottom: 10px;
+
+}
+
+/*end design of login form*/
+
+/*design of navbar*/
+
+
+
+.navbar {
+	border-radius: 0;
+	margin-bottom: 0;
+    background-color: #08172e;
+    color:#fff;
+
+}
+.navbar-brand span{
+    font-size: 20px;
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+ .navbar-inverse .navbar-nav>.open>a:focus,
+  .navbar-inverse .navbar-nav>.open>a:hover,
+  .dropdown-menu  {
+    background-color: #2b3d5b;
+}
+
+.navbar-right {
+    float: right!important;
+    margin-right: -15px;
+    color: green;
+}
+
+/* drop menu in navber*/
+.dropdown-menu {
+	min-width: 180px;
+	padding: 0;
+	font-size: 1em;
+	border: none;
+	border-radius: 0;
+}
+
+.dropdown-menu > li > a {
+	color: #FFF;
+	padding: 10px 15px;
+}
+
+
+/* items in dropmenu */
+
+
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover {
+    color: #FFF;
+    background-color: #8e44ad;
+}
+/*end design of nav bar*/
+
+/*design of table of (members-categories-items))*/
+.main-table thead{
+    background-color: #08172e;
+    color: #fff;
+}
+/*end design of table */
+
+
+
+/* design of screens in home admin*/
+.home-screen .screen{
+    border: 2px solid #ccc;
+    padding: 20px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 15px;
+} 
+
+.home-screen .member :hover{
+background-color: #cc7d51;
+
+}
+.home-screen .category :hover{
+    background-color: #bd9060;
+    }
+
+.home-screen .item :hover{
+        background-color: #d9b59d;
+        
+        }
+
+.h1, h1 {
+    font-size: 36px;
+    color: #08172e;
+    padding: 10px;
+    margin : 10px;
+}
+
+.home-screen .screen a {
+    color: #fff;
+}
+.home-screen .h1 {
+    color: #08172e;
+}
+
+
+.home-screen .screen span{
+    display: block;
+    font-size: 50px;
+}
+.home-screen .screen a:hover{
+    text-decoration: none;
+    }
+.home-screen .screen-member{
+    background-color: #08172e;
+}
+.home-screen .screen-categorie{
+    background-color: #15253f;
+}
+.home-screen .screen-item{
+    background-color: #2b3d5b;
+}
+/*end design of screens in home admin*/
+
+
+/*design of lastest (user-item)*/
+.foter
+{
+    padding: 20px;
+    font-size: 20px;
+}
+.latest-users , .latest-items {
+	margin-bottom: 0;
+}
+
+/*list of users and items*/
+
+.latest-users li , .latest-items li {
+	padding: 10px;
+	overflow: hidden;
+}
+/*make one with color and anoter with diffrent color*/
+.latest-users li:nth-child(odd) , .latest-items li:nth-child(odd) {
+	background-color: #EEE;
+}
+/*design of button*/
+.latest-users .btn-success 
+{
+	padding: 2px 8px;
+}
+.latest-items .btn-success ,.btn-info
+{
+	padding: 2px 8px;
+}
+
+.manage-categories btn
+{
+    padding: 2px 8px;
+
+}
+
+.manage-item img
+{
+    width: 50px;
+    height: 40px;
+}
+.manage-item .btn-success ,.btn-danger ,.btn-info
+{
+    position: relative;
+    margin-right: 5px ;
+}
+
+
+
+
+
+/*end design of latest*/
+
+
